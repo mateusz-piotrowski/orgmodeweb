@@ -18,7 +18,7 @@
     "getDropbox": () => {
       const token = store.getToken(store.Tokens.Dropbox);
       if (token) return new Dropbox.Dropbox({"accessToken": token});
-      location.href = new Dropbox.Dropbox({"clientId": "h3xyb8gqqxvounb"}).getAuthenticationUrl("https://orgmodeweb.org/");
+      location.href = new Dropbox.Dropbox({"clientId": "h3xyb8gqqxvounb"});
       return null;
     },
 

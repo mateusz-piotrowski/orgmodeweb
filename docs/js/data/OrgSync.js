@@ -18,9 +18,10 @@
     "getDropbox": () => {
       const token = store.getToken(store.Tokens.Dropbox);
       if (token) return new Dropbox.Dropbox({"accessToken": token});
-      location.href = new Dropbox.Dropbox({"clientId": "h3xyb8gqqxvounb"});
-      return null;
+      location.href = new Dropbox.Dropbox({"clientId": "0rxts18mp16gfh9"});
     },
+
+   //h3xyb8gqqxvounb
 
     /**
      *
